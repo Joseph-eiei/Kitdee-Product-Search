@@ -1,0 +1,147 @@
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Kanit", sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.showAllButton {
+    margin-left: 0px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.results {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product-number {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.product-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.product-brand {
+    color: #666;
+}
+
+.product-price {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.product-remark {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.add-product-form input,
+.add-product-form textarea {
+    margin-bottom: 10px;
+}
+
+.no-results {
+    text-align: center;
+    font-size: 18px;
+    color: #dc3545;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-upload {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.image-upload input[type="file"] {
+    display: none;
+}
+
+.image-upload label {
+    cursor: pointer;
+}
+
+.edit-button {
+    margin-left: auto;
+}
