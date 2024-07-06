@@ -37,6 +37,10 @@ This project is a web application for managing furniture products for Kitdee Des
 
 4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
+5. (Optional) create desktop shortcut
+- edit start-project.ps1
+- add shortcut on your desktop
+
 ## Folder Structure
 - /frontend: Contains the React frontend code.
 - /backend: Contains the Node.js backend code with SQLite database setup.
