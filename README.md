@@ -21,7 +21,7 @@ This project is a web application for managing furniture products for Kitdee Des
 
 1. Clone the repository:
   ```
-   git clone https://github.com/your-username/kitdee-design-furniture.git
+   git clone https://github.com/Joseph-eiei/kitdee-design-furniture.git
    cd kitdee-design-furniture
   ```
 
